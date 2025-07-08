@@ -11,7 +11,7 @@ section {
 }
 
 /* =================
-   CTA и общие блоки
+   CTA ГЁ Г®ГЎГ№ГЁГҐ ГЎГ«Г®ГЄГЁ
    ================= */
 .cta-section {
   text-align: center;
@@ -57,7 +57,7 @@ section {
 }
 
 /* ================
-   Карточки-тезисы
+   ГЉГ Г°ГІГ®Г·ГЄГЁ-ГІГҐГ§ГЁГ±Г»
    ================ */
 .thesis-cards {
   background: #fff;
@@ -103,8 +103,8 @@ section {
   background: #fff8f7;
 }
 
-/* --- Текстурные стили карточек --- */
-/* Бумага */
+/* --- Г’ГҐГЄГ±ГІГіГ°Г­Г»ГҐ Г±ГІГЁГ«ГЁ ГЄГ Г°ГІГ®Г·ГҐГЄ --- */
+/* ГЃГіГ¬Г ГЈГ  */
 .thesis-card.texture-paper {
   background: #fffdfa url('../img/textures/paper.png') repeat center center / cover;
   border-radius: 14px;
@@ -112,7 +112,7 @@ section {
   border: 1.2px solid #ece5d8;
   overflow: hidden;
 }
-/* Металл (нейтральный) */
+/* ГЊГҐГІГ Г«Г« (Г­ГҐГ©ГІГ°Г Г«ГјГ­Г»Г©) */
 .thesis-card.texture-metal {
   background: #dde2e8 url('../img/textures/metal.png') repeat center center / cover;
   border-radius: 16px;
@@ -120,32 +120,32 @@ section {
   border: 1.2px solid #c4c6cc;
   overflow: hidden;
 }
-/* Золото */
+/* Г‡Г®Г«Г®ГІГ® */
 .thesis-card.texture-gold {
   background: #ffefc5 url('../img/textures/gold.png') repeat center center / cover;
   border: 1.3px solid #e5c700;
   overflow: hidden;
 }
-/* Розовое золото */
+/* ГђГ®Г§Г®ГўГ®ГҐ Г§Г®Г«Г®ГІГ® */
 .thesis-card.texture-rosegold {
   background: #fcd5c8 url('../img/textures/rosegold.png') repeat center center / cover;
   border: 1.3px solid #e7b9a3;
   overflow: hidden;
 }
-/* Медь */
+/* ГЊГҐГ¤Гј */
 .thesis-card.texture-copper {
   background: #f6e6d4 url('../img/textures/copper.png') repeat center center / cover;
   border: 1.3px solid #d5a173;
   overflow: hidden;
 }
-/* Синяя сталь */
+/* Г‘ГЁГ­ГїГї Г±ГІГ Г«Гј */
 .thesis-card.texture-bluesteel {
   background: #e8f0fd url('../img/textures/bluesteel.png') repeat center center / cover;
   border: 1.3px solid #5979a1;
   overflow: hidden;
 }
 
-/* ----------- Эффект "тарелки" для пяти карточек ----------- */
+/* ----------- ГќГґГґГҐГЄГІ "ГІГ Г°ГҐГ«ГЄГЁ" Г¤Г«Гї ГЇГїГІГЁ ГЄГ Г°ГІГ®Г·ГҐГЄ ----------- */
 .flex-cards .thesis-card:nth-child(1) {
   transform: perspective(500px) rotateY(18deg);
   box-shadow: 32px 6px 32px -8px rgba(80,80,90,0.16), 8px 0 22px -12px rgba(80,80,90,0.09);
@@ -171,7 +171,7 @@ section {
   box-shadow: -32px 6px 32px -8px rgba(80,80,90,0.16), -8px 0 22px -12px rgba(80,80,90,0.09);
   z-index: 1;
 }
-/* ----------- Прозрачный эффект для пяти карточек ----------- */
+/* ----------- ГЏГ°Г®Г§Г°Г Г·Г­Г»Г© ГЅГґГґГҐГЄГІ Г¤Г«Гї ГЇГїГІГЁ ГЄГ Г°ГІГ®Г·ГҐГЄ ----------- */
 .thesis-cards-bg {
   background: #fff;
   border-radius: 28px;
@@ -189,7 +189,7 @@ section {
   .thesis-cards-bg { padding: 8px 2vw; border-radius: 10px; }
 }
 
-/* Ховер эффект — мягкая подсветка */
+/* Г•Г®ГўГҐГ° ГЅГґГґГҐГЄГІ вЂ” Г¬ГїГЈГЄГ Гї ГЇГ®Г¤Г±ГўГҐГІГЄГ  */
 .flex-cards .thesis-card:not(:nth-child(3)):hover {
   background: #fff8f7;
   transform: scale(1.08) perspective(500px) rotateY(var(--tilt, 0deg));
@@ -201,8 +201,8 @@ section {
   box-shadow: 0 28px 60px rgba(80,0,0,0.20), 0 1px 0 #eee inset;
 }
 .thesis-card img {
-  /* Файл иконки — 128?128px PNG или SVG! */
-  width: 64px;     /* На обычном экране — иконка выглядит как 64?64px */
+  /* Г”Г Г©Г« ГЁГЄГ®Г­ГЄГЁ вЂ” 128?128px PNG ГЁГ«ГЁ SVG! */
+  width: 64px;     /* ГЌГ  Г®ГЎГ»Г·Г­Г®Г¬ ГЅГЄГ°Г Г­ГҐ вЂ” ГЁГЄГ®Г­ГЄГ  ГўГ»ГЈГ«ГїГ¤ГЁГІ ГЄГ ГЄ 64?64px */
   height: 64px;
   max-width: 100%;
   display: block;
@@ -210,16 +210,16 @@ section {
   object-fit: contain;
 }
 
-/* Для ретина-экранов и выше (2x, 3x, 4x) — иконка будет выглядеть сверхчётко */
+/* Г„Г«Гї Г°ГҐГІГЁГ­Г -ГЅГЄГ°Г Г­Г®Гў ГЁ ГўГ»ГёГҐ (2x, 3x, 4x) вЂ” ГЁГЄГ®Г­ГЄГ  ГЎГіГ¤ГҐГІ ГўГ»ГЈГ«ГїГ¤ГҐГІГј Г±ГўГҐГ°ГµГ·ВёГІГЄГ® */
 @media
 (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .thesis-card img {
-    /* НЕ увеличиваем размер! Физический размер файла — 128?128px,
-       а в макете — 64?64px. Retina покажет всё чётко. */
+    /* ГЌГ… ГіГўГҐГ«ГЁГ·ГЁГўГ ГҐГ¬ Г°Г Г§Г¬ГҐГ°! Г”ГЁГ§ГЁГ·ГҐГ±ГЄГЁГ© Г°Г Г§Г¬ГҐГ° ГґГ Г©Г«Г  вЂ” 128?128px,
+       Г  Гў Г¬Г ГЄГҐГІГҐ вЂ” 64?64px. Retina ГЇГ®ГЄГ Г¦ГҐГІ ГўГ±Вё Г·ВёГІГЄГ®. */
   }
 }
 
-/* ----------- Мобильная адаптация ----------- */
+/* ----------- ГЊГ®ГЎГЁГ«ГјГ­Г Гї Г Г¤Г ГЇГІГ Г¶ГЁГї ----------- */
 @media (max-width: 900px) {
   .flex-cards { gap: 12px; }
   .thesis-card { width: 45vw; min-width: 130px; transform: none !important; box-shadow: 0 2px 12px rgba(212,0,0,0.06); z-index: auto; }
@@ -229,7 +229,7 @@ section {
   .thesis-card { width: 93vw; margin-bottom: 16px; }
 }
 
-/* Программа курса — карточки по неделям */
+/* ГЏГ°Г®ГЈГ°Г Г¬Г¬Г  ГЄГіГ°Г±Г  вЂ” ГЄГ Г°ГІГ®Г·ГЄГЁ ГЇГ® Г­ГҐГ¤ГҐГ«ГїГ¬ */
 .weeks-section {
   background: #fff;
   max-width: 700px;
@@ -259,18 +259,18 @@ section {
   padding: 36px 32px 30px 32px;
   margin-bottom: 32px;
   text-align: left;
-  border-left: 8px solid #d40000; /* По умолчанию красная */
+  border-left: 8px solid #d40000; /* ГЏГ® ГіГ¬Г®Г«Г·Г Г­ГЁГѕ ГЄГ°Г Г±Г­Г Гї */
   transition: box-shadow .27s, transform .27s, background .18s;
   width: 100%;
   box-sizing: border-box;
   position: relative;
 }
 
-/* Индивидуальные цвета для каждой недели */
-.week1 { border-left: 8px solid #d40000; }       /* Красная */
-.week2 { border-left: 8px solid #ececec; }       /* Светло-серая */
-.week3 { border-left: 8px solid #2d7be4; }       /* Синяя */
-.week4 { border-left: 8px solid #ffe040; }       /* Жёлтая */
+/* Г€Г­Г¤ГЁГўГЁГ¤ГіГ Г«ГјГ­Г»ГҐ Г¶ГўГҐГІГ  Г¤Г«Гї ГЄГ Г¦Г¤Г®Г© Г­ГҐГ¤ГҐГ«ГЁ */
+.week1 { border-left: 8px solid #d40000; }       /* ГЉГ°Г Г±Г­Г Гї */
+.week2 { border-left: 8px solid #ececec; }       /* Г‘ГўГҐГІГ«Г®-Г±ГҐГ°Г Гї */
+.week3 { border-left: 8px solid #2d7be4; }       /* Г‘ГЁГ­ГїГї */
+.week4 { border-left: 8px solid #ffe040; }       /* Г†ВёГ«ГІГ Гї */
 
 .week-card h3 {
   color: #d40000;
@@ -294,7 +294,7 @@ section {
   transform: translateY(-3px) scale(1.01);
 }
 
-/* Тарифы */
+/* Г’Г Г°ГЁГґГ» */
 .tariffs-section {
   background: #f3f3f3;
   padding: 60px 20px;
@@ -463,7 +463,7 @@ section {
   .format-text p, .author-text p { font-size: 16px; }
 }
 
-/* Футер */
+/* Г”ГіГІГҐГ° */
 footer {
   background:#111;
   color:#ccc;
@@ -478,4 +478,33 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+@media (max-width: 480px) {
+  .tariffs-section {
+    padding: 40px 10px;
+  }
+
+  .tariff-card {
+    width: 90%;
+    padding: 20px 15px;
+  }
+
+  .tariff-title {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .tariff-price {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .tariff-card a {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .tariff-card ul {
+    text-align: center;
+  }
 }
